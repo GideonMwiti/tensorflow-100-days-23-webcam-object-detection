@@ -7,6 +7,7 @@ import numpy as np
 import tensorflow as tf
 import tensorflow_hub as hub
 import cv2
+from PIL import Image, ImageDraw
 
 # Hardcoded COCO label map for SSD models (1-indexed)
 COCO_LABELS = {
