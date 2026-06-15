@@ -1,0 +1,13 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE configuration
+.vscode/
+.idea/
+
+# Local logs and test images (if needed, but we keep results.png)
+*.log
+test_image.jpg
+fallback_image.jpg
